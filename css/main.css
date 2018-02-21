@@ -204,11 +204,35 @@ main {
     height: auto;
 }
 
+.hero-area {
+    border-bottom: solid 1px #cfcacb;
+}
+
 .hero-area h1 {
     font-size: 1.3125em;
 }
 
-/***** Styles *****/
+.hero-area p {
+    font-size: .875em;
+}
+
+/***** Sidebar Styles *****/
+
+.btn {
+    background-color: #ff1256;
+    border: solid 1px #e6e6e6;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.125em;
+    font-weight: bold;
+    height: 45px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.aside-concerts, .aside-faq {
+    display: none;
+}
 
 /***** Footer Styles *****/
 
