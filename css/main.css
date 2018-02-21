@@ -97,8 +97,120 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/****** BASE STYLES ********/
 
+body {
+    background-color: #eee;
+    color: #222;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
+}
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-sm-1 {width: 8.33%;}
+.col-sm-2 {width: 16.66%;}
+.col-sm-3 {width: 25%;}
+.col-sm-4 {width: 33.33%;}
+.col-sm-5 {width: 41.66%;}
+.col-sm-6 {width: 50%;}
+.col-sm-7 {width: 58.33%;}
+.col-sm-8 {width: 66.66%;}
+.col-sm-9 {width: 75%;}
+.col-sm-10 {width: 83.33%;}
+.col-sm-11 {width: 91.66%;}
+.col-sm-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+}
+
+/***** Header Styles *****/
+
+header {
+    background-color: #ddd;
+    text-align: center;
+    width: 100%;
+}
+
+.header-logo {
+    background-color: #222;
+    width: 100%;
+}
+
+header h1 {
+    color: #fff;
+    font-family: 'Sansita', script;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    border-top: solid 1px #cfcacb;
+    padding: 20px 0;
+}
+
+nav ul li a {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #ff1256 ;
+}
+
+/***** Main Styles *****/
+
+main {
+    margin: 0 3%;
+    width: 94%;
+}
+
+.hero-img {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.hero-area h1 {
+    font-size: 1.3125em;
+}
+
+/***** Styles *****/
+
+/***** Footer Styles *****/
 
 
 
@@ -203,16 +315,95 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 600px) {
+    /* Style adjustments for Tablet */
+
+    /****** GRID STYLES ********/
+
+.row {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
+
+.col-md-1 {width: 8.33%;}
+.col-md-2 {width: 16.66%;}
+.col-md-3 {width: 25%;}
+.col-md-4 {width: 33.33%;}
+.col-md-5 {width: 41.66%;}
+.col-md-6 {width: 50%;}
+.col-md-7 {width: 58.33%;}
+.col-md-8 {width: 66.66%;}
+.col-md-9 {width: 75%;}
+.col-md-10 {width: 83.33%;}
+.col-md-11 {width: 91.66%;}
+.col-md-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+}
+
+/***** Header Styles *****/
+
+/***** Main Styles *****/
+
+/***** Styles *****/
+
+/***** Footer Styles *****/
+
+
+    } /*** Tablet Styles ***/
+
+@media only screen and (min-width: 960px) {
+    /* Style adjustments for Desktop */
+
+    /****** GRID STYLES ********/
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-lg-1 {width: 8.33%;}
+.col-lg-2 {width: 16.66%;}
+.col-lg-3 {width: 25%;}
+.col-lg-4 {width: 33.33%;}
+.col-lg-5 {width: 41.66%;}
+.col-lg-6 {width: 50%;}
+.col-lg-7 {width: 58.33%;}
+.col-lg-8 {width: 66.66%;}
+.col-lg-9 {width: 75%;}
+.col-lg-10 {width: 83.33%;}
+.col-lg-11 {width: 91.66%;}
+.col-lg-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+}
+
+/***** Header Styles *****/
+
+/***** Main Styles *****/
+
+/***** Styles *****/
+
+/***** Footer Styles *****/
+
+
+    } /*** Desktop Styles ***/
 
 /* ==========================================================================
    Print styles.
