@@ -218,9 +218,23 @@ main {
 
 /***** Sidebar Styles *****/
 
+aside h1 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+input {
+    border: 1px solid #e6e6e6;
+    box-sizing: border-box;
+    height: 45px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
 .btn {
     background-color: #ff1256;
-    border: solid 1px #e6e6e6;
+    border: none;
+    box-shadow: 2px 3px #d19aaa;
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.125em;
@@ -230,16 +244,75 @@ main {
     width: 100%;
 }
 
+.aside-newsletter {
+    margin-bottom: 20px;
+}
+
 .aside-concerts, .aside-faq {
     display: none;
 }
 
+/***** Feed Styles *****/
+
+.feed {
+    border-top: 1px solid #cfcacb;
+}
+
+.feed h2 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.feed h3 {
+    font-size: 0.625em;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.feed figure {
+    border: 2px solid #e6e6e6;
+    float: left;
+    margin-right: 20px;
+    width: 45%;
+    height: auto;
+}
+
+.feed h1 {
+    font-size: 1em;
+    line-height: 1em;
+}
+
+.feed p {
+    display: none;
+}
+
+.feed-item {
+    border-bottom: 1px solid #cfcacb;
+    padding-bottom: 20px;
+}
+
 /***** Footer Styles *****/
 
+footer {
+    text-align: center;
+    width: 100%;
+}
 
+.footer-logo {
+    background-color: #222;
+    margin: 15px auto 0;
+    width: 50%;
+}
 
-
-
+.footer-logo h1 {
+    color: #fff;
+    font-family: 'Sansita', sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+    margin: auto;
+    padding-bottom: 10px;
+}
 
 
 
