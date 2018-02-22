@@ -126,6 +126,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #23a4cc;
+}
+
 .row {
     width: 100%;
     max-width: 768px;
@@ -244,13 +248,20 @@ input {
     border: none;
     box-shadow: 2px 3px #d19aaa;
     color: #fff;
+    display: inline-block;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.125em;
     font-weight: bold;
-    height: 45px;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
     text-transform: uppercase;
     width: 100%;
 }
+    .btn:hover{
+        background-color: #b21e49;
+        color: #fff;
+    }
 
 .aside-newsletter {
     margin-bottom: 20px;
@@ -280,7 +291,7 @@ input {
 .feed figure {
     border: 2px solid #e6e6e6;
     float: left;
-    margin-right: 20px;
+    margin-right: 5%;
     width: 45%;
     height: auto;
 }
@@ -309,8 +320,7 @@ footer {
 .footer-logo {
     background-color: #222;
     margin: 15px auto 0;
-    width: 50%;
-    min-width: 155px;
+    width: 210px;
 }
 
 .footer-logo h1 {
@@ -507,7 +517,17 @@ aside {
 }
 
 .aside-concerts, .aside-faq {
+    border-top: 1px solid #cfcacb;
     display: block;
+    margin-bottom: 20px;
+}
+
+aside h1 {
+    font-size: 21px;
+}
+
+aside p {
+    font-size: 14px;
 }
 
 /***** Feed Styles *****/
@@ -519,9 +539,18 @@ aside {
     width: 60%;
 }
 
+.feed-item {
+    padding-right: 5%;
+}
+
+.feed-item:nth-last-child(1) {
+    border-bottom: none;
+}
+
 /***** Footer Styles *****/
 
 footer {
+    border-top: 1px solid #cfcacb;
     content: "";
     clear: both;
 }
