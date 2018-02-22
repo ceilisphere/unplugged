@@ -108,6 +108,10 @@ body {
     min-width: 250px;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -458,10 +462,6 @@ footer {
     width: 88.5%;
 }
 
-nav {
-    
-}
-
 nav ul li {
     border: none;
     display: inline;
@@ -474,10 +474,57 @@ nav ul li {
 
 /***** Main Styles *****/
 
-/***** Styles *****/
+.hero-area {
+    padding: 35px 0;
+}
+
+.hero-img {
+    border: 2px solid #222;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+.hero-area h1 {
+    line-height: 1em;
+    margin-top: 0;
+}
+
+.hero-area p {
+    font-size: .875em;
+    line-height: 1.5em;
+}
+
+.hero-info {
+    padding-left: 20px;
+}
+
+/***** Aside Styles *****/
+
+aside {
+    float: right;
+    padding-left: 2%;
+    width: 40%;
+}
+
+.aside-concerts, .aside-faq {
+    display: block;
+}
+
+/***** Feed Styles *****/
+
+.feed {
+    border-top: none;
+    border-right: 1px solid #cfcacb;
+    float: left;
+    width: 60%;
+}
 
 /***** Footer Styles *****/
 
+footer {
+    content: "";
+    clear: both;
+}
 
     } /*** Tablet Styles ***/
 
