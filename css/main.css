@@ -523,11 +523,11 @@ aside {
 }
 
 aside h1 {
-    font-size: 21px;
+    font-size: 1.3125em;
 }
 
 aside p {
-    font-size: 14px;
+    font-size: .875em;
 }
 
 /***** Feed Styles *****/
@@ -595,22 +595,58 @@ footer {
 
 /***** Main Styles *****/
 
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
 .hero-area {
     border-bottom: none;
     border-right: 1px solid #cfcacb;
     float: left;
     padding: 0;
+    padding-right: 2%;
     margin-top: 35px;
-    margin-bottom: 0;
-    width: 66.66%;
-    
+    width: 66.66%;  
+}
+
+.hero-img {
+    margin-bottom: 20px;
+}
+
+.hero-info {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.hero-area h1 {
+    font-size: 2.25em;
+}
+
+.hero-area p {
+    font-size: 1em;
 }
 
 /***** Aside Styles *****/
 
 aside {
-    margin-top: 15px;
+    margin-top: 35px;
     width: 33.33%;
+}
+
+aside h1 {
+    font-size: 1.875em;
+    line-height: 1em;
+    margin-bottom: 10px;
+}
+
+aside p {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.aside-newsletter h1 {
+    margin-top: 0;
 }
 
 /***** Feed Styles *****/
@@ -621,8 +657,24 @@ aside {
     width: 100%;
 }
 
+.feed h1 {
+    font-size: 1.1325em;
+}
+
+.feed h2 {
+    font-size: 1.125em;
+}
+
+.feed h3 {
+    font-size: .75em;
+}
+
 .feed p {
     display: block;
+}
+
+.feed figure {
+    width: 20%;
 }
 
 /***** Footer Styles *****/
