@@ -133,7 +133,6 @@ a:hover {
 .row {
     width: 100%;
     max-width: 768px;
-    
     margin: 0 auto;
 }
 
@@ -208,7 +207,7 @@ nav ul li a:hover {
 main {
     margin: 0 3%;
     width: 94%;
-    max-width: 1200px;
+    
 }
 
 .hero-img {
@@ -598,10 +597,7 @@ footer {
 
 /***** Header Styles *****/
 
-.main-header {
-    max-width: 1200px;
-    margin: auto;
-}
+
 
 /***** Main Styles *****/
 
@@ -691,6 +687,14 @@ aside p {
 
 
     } /*** Desktop Styles ***/
+
+@media only screen and (min-width: 1201px) {
+
+.main-sections {
+    width: 94%;
+    margin: 0 3%;
+}
+}
 
 /* ==========================================================================
    Print styles.
