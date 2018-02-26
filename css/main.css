@@ -118,6 +118,7 @@ img {
 }
 
 figure {
+    border: 2px solid #cfcacb;
     margin: 0;
 }
 
@@ -289,7 +290,6 @@ input {
 }
 
 .feed figure {
-    border: 2px solid #e6e6e6;
     float: left;
     margin-right: 5%;
     width: 45%;
@@ -338,17 +338,42 @@ footer {
 
 /***** About Page Styles *****/
 
-span {
+.contact-info h1, .mission-statement h1, .team h1 {
+    font-size: 1.3125em;
+}
+
+.mission-statement p {
+    font-size: .875em;
+}
+
+.team h2 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.team h3 {
+    font-size: .875em;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+.contact-info span {
     font-weight: bold;
 }
 
-iframe {
+.maps figure { /* Figure out the responsive iframe for map */
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    border: 0;
 }
 
-figure {
-    border: 2px solid #cfcacb;
+iframe { /*iframe css should go up in basic styles */
+    width: 100%;
+    height: 100%;
 }
 
 .team figure {
@@ -356,12 +381,16 @@ figure {
     height: auto;
 }
 
+.bio-info {
+    padding-left: 10%;
+}
+
 .team p {
     display: none;
 }
 
-.team h1 {
-    font-size: 1.3125em;
+.team-bio {
+    padding-bottom: 20px;
 }
 
 /***** Concerts Page Styles *****/
