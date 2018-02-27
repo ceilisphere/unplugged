@@ -411,6 +411,29 @@ footer {
     padding-bottom: 140px;
 }
 
+/*** FAQ Page Styles ***/
+
+.faq-question {
+    border-bottom: 1px solid #cfcacb;
+}
+
+.faq {
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+
+.faq h1 {
+    font-size: 1.3125em;
+}
+
+.faq h2 {
+    font-size: 1em;
+}
+
+.faq p {
+    font-size: .875em;
+}
+
 /***** Concerts Page Styles *****/
 
 /***** News/Reviews Details Page Styles *****/
@@ -669,6 +692,25 @@ footer {
     padding-bottom: 250px;
 }
 
+/*** FAQ Page Styles ***/
+
+.faq {
+    margin-top: 50px;
+    margin-bottom: 400px;
+}
+
+.faq h1 {
+    font-size: 1.5em;
+}
+
+.faq h2 {
+    font-size: 1.125em;
+}
+
+.faq p {
+    font-size: .875em;
+}
+
 /***** Concerts Page Styles *****/
 
 
@@ -829,7 +871,7 @@ aside p {
     margin: 0 3%;
 }
 
-.contact-info, .mission-statement, .team {
+.contact-info, .mission-statement, .team, .faq {
     width: 94%;
     margin-left: 3%;
     margin-right: 3%;
