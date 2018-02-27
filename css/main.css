@@ -339,12 +339,20 @@ footer {
 
 /***** About Page Styles *****/
 
+.contact-info h1, .mission-statement h1 {
+    padding-top: 20px;
+}
+
 .contact-info h1, .mission-statement h1, .team h1 {
     font-size: 1.3125em;
 }
 
 .mission-statement p {
     font-size: .875em;
+}
+
+.team h1 {
+    margin-bottom: 35px;
 }
 
 .team h2 {
@@ -636,6 +644,7 @@ footer {
 
 .contact-info h1 {
     margin-top: 0;
+    padding-top: 0;
 }
 
 .mission-statement {
@@ -644,8 +653,12 @@ footer {
     padding: 20px 0;
 }
 
+.mission-statement h1 {
+    padding-top: 0;
+}
+
 .team h1 {
-    padding: 20px 0;
+    padding-top: 20px;
 }
 
 .team {
@@ -785,6 +798,22 @@ aside p {
 }
 
 /***** Footer Styles *****/
+
+
+/****** DETAIL PAGES ******/
+
+/***** About Page Styles *****/
+
+.team p {
+    display: block;
+}
+
+/***** Concerts Page Styles *****/
+
+
+
+/***** News/Reviews Detail Page Styles *****/
+
 
 
     } /*** Desktop Styles ***/
