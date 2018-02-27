@@ -337,6 +337,10 @@ footer {
 
 /***** DETAIL PAGES *****/
 
+.header-logo a {
+    color: #fff;
+}
+
 /***** About Page Styles *****/
 
 .contact-info h1, .mission-statement h1 {
@@ -823,6 +827,12 @@ aside p {
 .main-sections {
     width: 94%;
     margin: 0 3%;
+}
+
+.contact-info, .mission-statement, .team {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 }
