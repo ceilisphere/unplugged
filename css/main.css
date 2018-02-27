@@ -213,7 +213,7 @@ main {
 
 .hero-img {
     margin-top: 15px;
-    max-width: 620px;
+    
     width: 100%;
     height: auto;
 }
@@ -266,7 +266,7 @@ input {
     }
 
 .aside-newsletter {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .aside-concerts, .aside-faq {
@@ -438,8 +438,15 @@ footer {
 
 /***** News/Reviews Details Page Styles *****/
 
+/*** Reviews ***/
 
+.reviews {
+    display: none;
+}
 
+.aside-writers {
+    margin-bottom: 20px;
+}
 
 
 /* ==========================================================================
@@ -621,10 +628,14 @@ aside {
     width: 40%;
 }
 
+.aside-newsletter {
+    border-bottom: 1px solid #cfcacb;
+}
+
 .aside-concerts, .aside-faq {
-    border-top: 1px solid #cfcacb;
+    border-bottom: 1px solid #cfcacb;
     display: block;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 aside h1 {
@@ -717,6 +728,13 @@ footer {
 
 /***** News/Reviews Detail Page Styles *****/
 
+.aside-newsletter {
+    display: block;
+}
+
+.aside-writers {
+    display: none;
+}
 
 
     } /*** Tablet Styles ***/
