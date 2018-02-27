@@ -393,6 +393,10 @@ iframe { /*iframe css should go up in basic styles */
     padding-bottom: 20px;
 }
 
+.team {
+    padding-bottom: 140px;
+}
+
 /***** Concerts Page Styles *****/
 
 /***** News/Reviews Details Page Styles *****/
