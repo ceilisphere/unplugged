@@ -950,6 +950,46 @@ aside p {
 
 /****** DETAIL PAGES ******/
 
+.detail-article .hero-area {
+    border-right: none;
+    float: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;  
+}
+
+.detail-article {
+    border-right: 1px solid #cfcacb;
+    float: left;
+    margin: 50px 0 400px;
+    padding-right: 2%;
+    width: 66.66%;
+}
+
+.detail-article figure {
+    margin: 0 0 20px;
+}
+
+.aside-detail {
+    border-top: none;
+    float: right;
+    margin-top: 50px;
+    padding-left: 2%;
+    width: 33.33%;
+}
+
+.article-meta-info {
+    font-size: 1em;
+}
+
+.detail-article .hero-area p {
+    font-size: 1.125em;
+}
+
+.detail-article p {
+    font-size: 1em;
+}
+
 /***** About Page Styles *****/
 
 .team p {
