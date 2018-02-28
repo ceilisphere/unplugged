@@ -438,6 +438,18 @@ footer {
 
 /***** News/Reviews Details Page Styles *****/
 
+.detail-article .hero-area {
+    border-bottom: none;
+}
+
+.detail-hero-img {
+    margin-top: 15px;
+}
+
+.article-meta-info {
+    font-size: .875em;
+}
+
 /*** Reviews ***/
 
 .reviews {
@@ -456,7 +468,6 @@ footer {
 .article-header h1 {
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.3125em;
     font-style: normal;
     margin-top: 20px;
 }
@@ -478,6 +489,14 @@ ul.article-meta-info{
             border-right: 1px solid;
             margin-right: 10px;
         }
+
+.detail-article p {
+    font-size: .875em;
+}  
+
+.detail-article .hero-area p {
+    font-size: 1em;
+}
 
 .aside-detail {
     border-top: 1px solid #cfcacb;
@@ -773,6 +792,30 @@ footer {
     display: none;
 }
 
+.article-header h1 {
+    margin-top: 0;
+}
+
+.detail-hero-img {
+    margin-top: 0;
+    margin-right: 20px;
+}
+
+.article-header h1 {
+    font-size: 1.5em;
+}
+
+.aside-detail {
+    border-bottom: none;
+    float: none;
+    margin-bottom: 400px;
+    padding-left: 0;
+    width: 100%;
+}
+
+.detail-article .hero-area {
+    padding-bottom: 16px;
+}
 
     } /*** Tablet Styles ***/
 
