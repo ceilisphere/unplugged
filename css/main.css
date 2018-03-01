@@ -105,7 +105,7 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 16px;
     width: 100%;
-    min-width: 250px;
+    min-width: 285px;
 }
 
 * {
@@ -489,7 +489,7 @@ footer {
 
 .concert-info {
     float: left;
-    width: 75%;
+    
 }
 
 .concert-info .btn {
@@ -847,7 +847,44 @@ footer {
 
 /***** Concerts Page Styles *****/
 
+.concert-listing {
+    float: left;
+    width: 45%;
+}
 
+.concert-listing:nth-child(odd) {
+    margin-left: 10%;
+}
+
+.concerts h1 {
+    font-size: 1.5em;
+    margin-top: 35px;
+}
+
+.concerts h2 {
+    font-size: 1.125em;
+}
+
+.concerts p {
+    font-size: 1em;
+}
+
+.concerts h4 {
+    font-size: 1.3125em;
+}
+
+.concerts h5 {
+    font-size: 2.25em;
+    padding-top: 5px;
+}
+
+.main-sections .concerts {
+    margin-bottom: 600px;
+}
+
+.concerts-aside {
+    display: none;
+}
 
 /***** News/Reviews Detail Page Styles *****/
 
@@ -1067,7 +1104,58 @@ aside p {
 
 .concerts {
     float: left;
+    padding-right: 3%;
     width: 66.66%;
+}
+
+.concert-listing {
+    float: left;
+    width: 47.5%;
+}
+
+.concert-listing:nth-child(odd) {
+    margin-left: 5%;
+}
+
+.concert-listing:nth-child(10) {
+    border-bottom: none;
+}
+
+.concert-listing:nth-child(11) {
+    border-bottom: none;
+}
+
+.concerts h1 {
+    font-size: 1.875em;
+    margin-top: 0;
+}
+
+.concerts h2 {
+    font-size: 1.125em;
+}
+
+.concerts p {
+    font-size: 1em;
+}
+
+.concerts h4 {
+    font-size: 1.3125em;
+}
+
+.concerts h5 {
+    font-size: 2.25em;
+    padding-top: 5px;
+}
+
+.main-sections .concerts {
+    border-right: 1px solid #cfcacb;
+    margin-top: 50px;
+    margin-bottom: 600px;
+}
+
+.concerts-aside {
+    display: block;
+    margin-top: 50px;
 }
 
 /***** News/Reviews Detail Page Styles *****/
