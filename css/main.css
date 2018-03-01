@@ -436,6 +436,60 @@ footer {
 
 /***** Concerts Page Styles *****/
 
+.aside-newsletter {
+    display: none;
+}
+
+.main-sections .concerts {
+    margin-bottom: 140px;
+}
+
+.concerts h1 {
+    font-size: 1.3125em;
+    margin-bottom: 0;
+}
+
+.concerts h2 {
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0;
+    padding-bottom: 3.2px;
+}
+
+.concerts p {
+    font-size: .875em;
+    margin: 0;
+}
+
+.concert-listing {
+    border-bottom: 1px solid #cfcacb;
+    padding: 30px 0;
+}
+
+.concert-date {
+    border: 2px solid #cfcacb;
+    display: inline-block;
+    line-height: 1em;
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.concert-date h4 {
+    font-size: 1.125em;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.concert-date h5 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.concert-info .btn {
+    margin-top: 10px;
+    width: 195px;
+}
+
 /***** News/Reviews Details Page Styles *****/
 
 .detail-article .hero-area {
