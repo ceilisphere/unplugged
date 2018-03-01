@@ -472,6 +472,8 @@ footer {
     line-height: 1em;
     padding: 10px 5px;
     text-align: center;
+    float: left;
+    margin: 0 5% 0 0;
 }
 
 .concert-date h4 {
@@ -485,9 +487,20 @@ footer {
     margin: 0;
 }
 
+.concert-info {
+    float: left;
+    width: 75%;
+}
+
 .concert-info .btn {
     margin-top: 10px;
     width: 195px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /***** News/Reviews Details Page Styles *****/
@@ -1052,7 +1065,10 @@ aside p {
 
 /***** Concerts Page Styles *****/
 
-
+.concerts {
+    float: left;
+    width: 66.66%;
+}
 
 /***** News/Reviews Detail Page Styles *****/
 
